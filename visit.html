@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Polygonal Brewing Co.</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="row">
+			<div class="col logo"><a
+					href="index.html"><img src="assets/images/polygonal-logo.png" alt="Polygonal Brewing Co. Logo"></a>
+			</div>
+			<div class="col">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="beers.html">Beers</a></li>
+						<li><a href="brewery.html">The Brewery</a></li>
+						<li><a href="visit.html">Visit</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section>
+
+		<h2>Visit Us</h2>
+
+		<p>Whe'd love to have you around, whether for a tasting or to show you our facilities and walk you through the
+			brewing process. You are always welcome here.</p>
+
+		<form>
+			<input type="text" name="name" id="fullname" placeholder="Name" required>
+			<input type="email" name="email" id="email" placeholder="Email" required>
+			<input type="datetime-local" name="date" id="date" required>
+			<label for="guests">Number of guests</label><input type="number" id="guests" name="guests" min="1" max="15">
+			<label for="visit-type">Type of visit</label><select id="visit-type" name="visit-type">
+                <option value="reservation">Reservation</option>
+                <option value="tour">Tour</option>
+            </select>
+			<textarea name="comments" id="form-comment" rows="3" placeholder="Anything you would like us to know about?"></textarea>
+			<label for="signup">I'd like to receive your newsletter</label><input name="signup" id="signup" type="checkbox">
+
+			<input type="submit" value="cheers!">
+
+		</form>
+
+	</section>
+
+	<footer>
+
+		<div class="row">
+			<div class="col footer-contact">
+				<p><i class="fa fa-location-arrow"></i>1 Block 1, Blackrock Business Park,<br> Carysfort Ave, Blackrock, Co.
+					<br>
+                Dublin, Ireland</p>
+					<p><i class="fa fa-phone"></i><a href="tel:555-123-4567">555-123-4567</a></p>
+					<p><i class="fa fa-envelope"></i><a
+							href="mailto:contact@polygonalbrewing.com">contact@polygonalbrewing.com</a></p>
+			</div>
+			<div class="col">
+				<h4>Opening Hours</h4>
+				<ul>
+					<li>Monday: 12:00 - 00:00</li>
+					<li>Tuesday: 12:00 - 00:00</li>
+					<li>Wednesday: 12:00 - 00:00</li>
+					<li>Thursday: 12:00 - 1:00</li>
+					<li>Friday: 12:00 - 2:00</li>
+					<li>Saturday: 12:00 - 2:00</li>
+					<li>Sunday: closed</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h4>Stay In Touch</h4>
+				<form>
+					<input type="text">
+					<input type="submit">
+                </form>
+			</div>
+			<div class="col">
+				<h4>Connect</h4>
+				<ul>
+					<li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://funtappd.com"><i class="fab fa-untappd"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+	</footer>
+
+	<script src="https://kit.fontawesome.com/554b7b0344.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
