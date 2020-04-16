@@ -82,7 +82,7 @@
         <div class="row">
           <!-- Slideshow -->
           <div
-            class="col-md-9 carousel slide"
+            class="col-lg-9 carousel slide"
             data-ride="carousel"
             id="homepage-carousel"
             data-interval="6000"
@@ -124,7 +124,7 @@
 
           <!-- Opening Hours -->
 
-          <div class="col-md-3">
+          <div class="col-lg-3 row-buffer">
             <h3>Opening Hours</h3>
             <ul class="list-unstyled">
               <li>Monday: 12:00 - 00:00</li>
@@ -136,20 +136,28 @@
               <li>Sunday: closed</li>
             </ul>
             <a href="visit.html" class="btn btn-primary">Make a reservation</a>
+
+            <div class="row-buffer">
+              <h3>Where to find us</h3>
+              <!---- Google Map ---->
+              <div class="map-container">
+                <div
+                  class="map-overlay"
+                  onclick="style.pointerEvents='none';"
+                ></div>
+                <iframe
+                  src="https://www.google.com/maps/d/embed?mid=18Y-OL-SCOapMsxaPh5ECu9UVHn6y4Py0"
+                  width="100%"
+                  height="233px"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="row row-buffer">
-          <div class="col-md-6 map">
-            <div class="text-center">
-              <h3>Where to find us</h3>
-            </div>
-            <iframe
-              src="https://www.google.com/maps/d/embed?mid=18Y-OL-SCOapMsxaPh5ECu9UVHn6y4Py0"
-              width="100%"
-              height="480"
-            ></iframe>
-          </div>
+          <div class="col-md-6 map"></div>
 
           <div class="col-md-6 hours"></div>
         </div>
