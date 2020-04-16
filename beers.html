@@ -75,38 +75,14 @@
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="beer-img text-center">
-              <a href="#"
+              <a
+                href="#featherweightModal"
+                data-toggle="modal"
+                data-target="#featherweightModal"
                 ><img
                   src="assets/images/can-featherweight.png"
                   alt="Featherweight Pilsner Can"
               /></a>
-            </div>
-            <div class="beer-info">
-              <div class="row">
-                <div class="col">
-                  <img
-                    src="assets/images/can-featherweight.png"
-                    alt="Featherweight Pilsner Can"
-                  />
-                  <a class="art-credit" href="https://www.freepik.com/patrickss"
-                    >Vector art by Patrickss</a
-                  >
-                </div>
-                <div class="col">
-                  <h3>Featherweight</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    hendrerit egestas fringilla. Cras id semper elit, id
-                    sagittis arcu. Sed finibus, nisl vitae sodales egestas, ex
-                    neque tempor arcu, id mattis orci arcu nec risus. Nunc
-                    fermentum mollis erat, sit amet vehicula mi sollicitudin id.
-                    Vivamus fermentum ipsum non elementum convallis.
-                  </p>
-                  <div>
-                    PROGRESS BARS GO HERE
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6">
@@ -290,6 +266,43 @@
         </div>
       </div>
     </section>
+
+    <!-- MODAL WINDOWS -->
+
+    <div
+      class="modal"
+      id="featherweightModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="featherweightLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-4 modal-img">
+                  <img
+                    src="assets/images/can-featherweight.png"
+                    alt="Featherweight Pilsner Can"
+                  />
+                </div>
+                <div class="col-8"><h3>Featherweight</h3></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <div class="container-fluid bg-custom">

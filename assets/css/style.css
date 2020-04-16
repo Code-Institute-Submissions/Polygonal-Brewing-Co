@@ -249,6 +249,27 @@ body {
   text-align: center;
 }
 
+/*---- MODAL FORMATTING ----*/
+
+button.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  z-index: 1100;
+  cursor: pointer;
+}
+
+.modal-img {
+  padding-left: 2rem;
+  position: relative;
+}
+
+.modal-img img {
+  width: 80%;
+}
+
 /*---- VISIT PAGE / FORM ----*/
 
 /*---- MAP FORMATTING ----*/
