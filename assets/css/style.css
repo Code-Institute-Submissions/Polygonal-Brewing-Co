@@ -267,10 +267,6 @@ a:hover {
 
 .modal .modal-bg {
   background-color: #fffff2;
-  /*background-image: url("assets/images/footer-bg.png");
-  background-color: 
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 
 button.close {
@@ -310,6 +306,28 @@ button.close {
 .progress {
   background-color: #f5e1fd;
   border-radius: 0;
+}
+
+/*---- MOBILE BEER CAROUSEL ----*/
+
+.beer-carousel-img {
+  width: 200px;
+  margin: auto;
+}
+.carousel-inner {
+  padding: 2rem;
+}
+
+#beerCarousel .carousel-indicators {
+  position: absolute;
+  top: 0px;
+}
+
+#beerCarousel .carousel-indicators li {
+  background-color: #631253;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 /*---- VISIT PAGE / FORM ----*/
