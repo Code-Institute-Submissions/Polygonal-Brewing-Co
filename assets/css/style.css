@@ -191,6 +191,15 @@ body {
   background-color: #fffff2;
 }
 
+a {
+  color: #ed1651;
+}
+
+a:hover {
+  color: #a70432;
+  text-decoration: none;
+}
+
 /*---- ELEMENTS -----*/
 .btn-primary {
   background-color: #ed1651;
@@ -251,6 +260,19 @@ body {
 
 /*---- MODAL FORMATTING ----*/
 
+.modal-content {
+  border-radius: 0;
+  padding: 2rem;
+}
+
+.modal .modal-bg {
+  background-color: #fffff2;
+  /*background-image: url("assets/images/footer-bg.png");
+  background-color: 
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
 button.close {
   position: absolute;
   top: 5px;
@@ -268,6 +290,26 @@ button.close {
 
 .modal-img img {
   width: 80%;
+}
+
+.art-credit {
+  font-size: 0.7rem;
+  margin: 0.1rem auto;
+}
+
+.progress-label {
+  font-size: 0.8rem;
+  text-transform: lowercase;
+  padding-right: 0.2rem;
+}
+
+.progress-bar {
+  background-color: #741372;
+}
+
+.progress {
+  background-color: #f5e1fd;
+  border-radius: 0;
 }
 
 /*---- VISIT PAGE / FORM ----*/
