@@ -115,7 +115,7 @@ footer .social .list-inline-item {
 }
 
 footer .social .list-inline-item:hover {
-  font-size: 1.6rem;
+  transform: scale(1.2);
 }
 
 .list-inline-item:not(:last-child) {
@@ -125,22 +125,30 @@ footer .social .list-inline-item:hover {
 
 footer input[type="email"] {
   border: none;
-  width: 65%;
+  width: 100%;
   font-size: 0.8rem;
   border-radius: 0;
   display: inline-block;
-  height: 2em;
+  height: 2rem;
+  background-color: #fffff2;
 }
 
 footer button[type="submit"] {
   background-color: #812890;
-  width: 25%;
+  width: 5em;
   height: 2em;
   display: inline-block;
   border: 0;
+  margin-top: 0.5em;
+  padding-top: 0.3em;
 }
 footer button[type="submit"]:hover {
   background-color: #631253;
+}
+
+footer hr {
+  border-top: 1px solid white;
+  width: 60%;
 }
 
 /*------ FONTS ------*/
@@ -165,7 +173,8 @@ h5 {
 }
 
 h2::after,
-h3::after {
+h3::after,
+.carousel-item h4::after {
   content: "";
   width: 60%;
   height: 1px;
@@ -311,7 +320,8 @@ button.close {
 /*---- MOBILE BEER CAROUSEL ----*/
 
 .beer-carousel-img {
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   margin: auto;
 }
 .carousel-inner {
@@ -328,6 +338,10 @@ button.close {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+.carousel-item {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
 }
 
 /*---- VISIT PAGE / FORM ----*/
