@@ -346,7 +346,18 @@ button.close {
 
 /*---- VISIT PAGE / FORM ----*/
 
-/*---- MAP FORMATTING ----*/
+.form-wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+.form-control,
+.custom-select {
+  border-radius: 0px;
+  border: solid 1px #ccc;
+}
+
+/*---- HOMEPAGE MAP FORMATTING ----*/
 iframe {
   border: none;
   margin-top: -50px;
@@ -364,3 +375,5 @@ iframe {
   margin-top: -480px;
   z-index: 1;
 }
+
+/*---- MEDIA QUERIES ----*/
