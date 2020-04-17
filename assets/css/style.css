@@ -151,6 +151,14 @@ footer hr {
   width: 60%;
 }
 
+footer .fa-ul {
+  left: 1.5em;
+}
+
+footer .fa-ul {
+  margin-left: 0;
+}
+
 /*------ FONTS ------*/
 
 body {
