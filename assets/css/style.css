@@ -193,6 +193,10 @@ h5 {
   display: inline-block;
 }
 
+.content-container h2 {
+  margin: 3rem 0;
+}
+
 h2::after,
 h3::after,
 #beerCarousel .carousel-item h4::after {
