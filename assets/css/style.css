@@ -32,7 +32,6 @@ header {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  /*border-bottom: solid 1px black;*/
   color: white;
 }
 .navbar-nav .nav-item .nav-link:hover::after {
@@ -157,6 +156,20 @@ footer .fa-ul {
 
 footer .fa-ul {
   margin-left: 0;
+}
+
+/*---- STICKY FOOTER ----*/
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
 }
 
 /*------ FONTS ------*/
@@ -399,18 +412,4 @@ iframe {
   .form-wrapper {
     width: 100%;
   }
-}
-
-/*---- STICKY FOOTER TEST ----*/
-html,
-body {
-  height: 100%;
-}
-
-#page-content {
-  flex: 1 0 auto;
-}
-
-#sticky-footer {
-  flex-shrink: none;
 }
