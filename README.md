@@ -1,4 +1,6 @@
-# POLYGONAL BREWING CO. README
+![alt text](assets/wireframes/polygonal-readme-logo.png "Polygonal Brewing Co. logo")
+
+# POLYGONAL BREWING CO. WEBSITE
 
 ## DESCRIPTION
 
@@ -16,14 +18,18 @@ The site has been deployed to github and github pages and is accessible [here](h
 
 ## WIREFRAME
 
-A detailed wire framing process was undertaken to oversee the structure of the site and ensure proper organization of content.
-The final wireframe can be found here: link to wireframe
+A detailed wire framing process was undertaken to oversee the structure of the site and ensure proper organization of content on desktop and mobile versions of the site.
+
+The final version of the wireframe can be found [here](https://jumboduck.github.io/Polygonal-Brewing-Co/readme-assets/Polygonal-Brewing-Wireframe.pdf).
 
 ## UX
 
 The site was built for a comfortable intuitive experience across all devices, while maintaining brand authenticity.
+
 Bold colors are used in the header and footer, in line with the company’s brand and to provide anchors to structure the page, while the body uses a cleaner design for legibility.
+
 The website adapts its layout and content based on screen-size for ease of use. The beers page, for example, will turn the list of products into a swipe-able carousel on mobile devices, to provide an enjoyable intuitive experience and prevent excessive scrolling.
+
 Throughout the site, the navigation stays at the top of the display for ease of navigation, and again, as a reminder of the visual identity of the brewery.
 
 ## FEATURES
@@ -36,6 +42,7 @@ The site uses various features from bootstrap:
 ## SCALABILITY
 
 Adding an online shop functionality for product or merchandise would be an added benefit to the site and the general branding strategy of the company.
+
 As the [beer listing](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html) expands a sorting and search system with pagination should be implemented to facilitate access to content and prevent information overload.
 
 ## TECHNOLOGIES
