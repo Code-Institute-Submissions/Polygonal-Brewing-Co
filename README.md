@@ -38,8 +38,18 @@ Throughout the site, the navigation stays at the top of the display for ease of 
 
 The site uses various features from bootstrap:
 
-- Carousel
-- Collapsable nav on mobile
+- Image carousels to give users an overview of what to expect on location.
+- Sticky navigation, collapsable on mobile.
+- Modal windows on [Beers](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html) page to display information about products.
+- Progress bars in said modal windows to display caracteristics of product.
+- On mobile devices the [Beers](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html) page changes to a carousel, displaying the content in a more user-friendly fashion. Users can swipe left and right to navigate the information.
+- Flexbox classes used to keep footer at the bottom of the page, regardless of content size.
+
+## TESTING
+
+The site was tested on various platforms to ensure proper display across different screen sizes.
+
+Form validation was tested on both the [Visit](https://jumboduck.github.io/Polygonal-Brewing-Co/visit.html) page and the footer form.
 
 ## SCALABILITY
 
