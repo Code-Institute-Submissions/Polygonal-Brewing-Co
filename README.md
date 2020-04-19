@@ -43,3 +43,4 @@ Throughout the site, the navigation stays at the top of the display for ease of 
 ## ACKNOWLEDGMENTS
 
 -Overlay of map to prevent accidental zooming while scrolling was found here https://www.taniarascia.com/prevent-mouse-scroll-from-zooming-on-embedded-google-maps/
+-Sticky Footer code from here https://startbootstrap.com/snippets/sticky-footer-flexbox/
