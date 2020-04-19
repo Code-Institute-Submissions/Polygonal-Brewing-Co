@@ -1,4 +1,4 @@
-![alt text](assets/wireframes/polygonal-readme-logo.png "Polygonal Brewing Co. logo")
+![alt text](https://jumboduck.github.io/Polygonal-Brewing-Co/assets/wireframes/polygonal-readme-logo.png "Polygonal Brewing Co. logo")
 
 # POLYGONAL BREWING CO. WEBSITE
 
@@ -14,15 +14,17 @@ It is divided in 4 pages:
 
 ## DEPLOYMENT AND LIVE DEMO
 
-The site has been deployed to github and github pages and is accessible [here](https://jumboduck.github.io/Polygonal-Brewing-Co/).
+The site has been deployed to github and is accessible on [github pages](https://jumboduck.github.io/Polygonal-Brewing-Co/).
 
 ## WIREFRAME
 
 A detailed wire framing process was undertaken to oversee the structure of the site and ensure proper organization of content on desktop and mobile versions of the site.
 
-The final version of the wireframe can be found [here](https://jumboduck.github.io/Polygonal-Brewing-Co/readme-assets/Polygonal-Brewing-Wireframe.pdf).
+The final version of the wireframe can be found [here](https://jumboduck.github.io/Polygonal-Brewing-Co/assets/wireframes/Polygonal-Brewing-Wireframe.pdf).
 
 ## UX
+
+![alt text](https://jumboduck.github.io/Polygonal-Brewing-Co/assets/wireframes/devices-display.png "Polygonal Brewing Co. logo")
 
 The site was built for a comfortable intuitive experience across all devices, while maintaining brand authenticity.
 
