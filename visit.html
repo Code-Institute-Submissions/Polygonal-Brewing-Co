@@ -17,17 +17,17 @@
   </head>
 
   <body class="d-flex flex-column">
-    <!-- Header -->
+    <!-- HEADER -->
     <header class="sticky-top">
       <div class="nav-container container-fluid bg-custom">
         <nav class="navbar navbar-expand-md navbar-dark">
-          <!-- Logo -->
+          <!-- LOGO -->
           <a class="navbar-brand logo" href="index.html"
             ><img
               src="assets/images/polygonal-logo-white-v2.png"
               alt="Polygonal Brewing Logo"
           /></a>
-          <!-- Toggle nav icon on mobile-->
+          <!-- TOGGLE NAV ICON ON MOBILE -->
           <button
             class="navbar-toggler ml-auto"
             type="button"
@@ -39,7 +39,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- Navigation -->
+          <!-- NAVIGATION -->
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul id="nav" class="navbar-nav ml-auto">
               <li class="nav-item text-center">
@@ -64,6 +64,8 @@
       </div>
     </header>
 
+    <!-- MAIN CONTENT AND FORM -->
+
     <section id="page-content">
       <div class="container content-container visit-content">
         <div class="text-center">
@@ -86,6 +88,7 @@
                   id="fullname"
                   placeholder="Name"
                   required
+                  aria-label="Name"
                 />
               </div>
             </div>
@@ -98,18 +101,20 @@
                   id="email"
                   placeholder="Email"
                   required
+                  aria-label="Email"
                 />
               </div>
             </div>
             <div class="form-row">
               <div class="col form-group">
-                <label for="time">Date:</label>
+                <label for="date">Date:</label>
                 <input
                   class="form-control"
                   type="date"
                   name="date"
                   id="date"
                   required
+                  aria-label="date"
                 />
               </div>
 
@@ -124,6 +129,7 @@
                   value="15:00"
                   id="time"
                   required
+                  aria-label="time"
                 />
               </div>
             </div>
@@ -139,6 +145,7 @@
                   max="15"
                   placeholder="2"
                   required
+                  aria-label="number of guests"
                 />
               </div>
 
@@ -148,6 +155,7 @@
                   id="visit-type"
                   class="form-control custom-select"
                   name="visit-type"
+                  aria-label="type of visit"
                 >
                   <option value="reservation">Reservation</option>
                   <option value="tour">Tour</option>

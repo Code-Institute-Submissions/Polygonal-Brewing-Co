@@ -1,6 +1,68 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Raleway:300,400,500");
 
-/*------ HEADING ------*/
+/* FONTS */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.center-title {
+  margin: 1.2rem auto;
+  display: inline-block;
+}
+
+.content-container h2 {
+  margin: 3rem 0;
+}
+
+h2::after,
+h3::after,
+#beerCarousel .carousel-item h4::after {
+  content: "";
+  width: 60%;
+  height: 1px;
+  display: block;
+  clear: both;
+  background-color: #000;
+  margin: auto;
+  margin-top: 0.6rem;
+}
+
+h3 {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* COLORS */
+
+body {
+  background-color: #fffff2;
+}
+
+a {
+  color: #ed1651;
+}
+
+a:hover {
+  color: #a70432;
+  text-decoration: none;
+}
+
+/* HEADING */
 
 .logo {
   max-width: 200px;
@@ -32,7 +94,7 @@ header {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: white;
+  color: #fff;
 }
 .navbar-nav .nav-item .nav-link:hover::after {
   content: "";
@@ -40,7 +102,7 @@ header {
   height: 1px;
   display: block;
   clear: both;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
 }
 
@@ -54,7 +116,7 @@ header {
   height: 1px;
   display: block;
   clear: both;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
 }
 
@@ -76,7 +138,7 @@ header {
   border: 0;
 }
 
-/*------ FOOTER -----*/
+/* FOOTER */
 
 footer .bg-custom {
   background-image: url("../images/footer-bg.png");
@@ -146,7 +208,7 @@ footer button[type="submit"]:hover {
 }
 
 footer hr {
-  border-top: 1px solid white;
+  border-top: 1px solid #fffff2;
   width: 60%;
 }
 
@@ -158,7 +220,8 @@ footer .fa-ul {
   margin-left: 0;
 }
 
-/*---- STICKY FOOTER ----*/
+/* STICKY FOOTER */
+
 html,
 body {
   height: 100%;
@@ -172,69 +235,7 @@ body {
   flex-shrink: none;
 }
 
-/*------ FONTS ------*/
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-}
-
-.center-title {
-  margin: 1.2rem auto;
-  display: inline-block;
-}
-
-.content-container h2 {
-  margin: 3rem 0;
-}
-
-h2::after,
-h3::after,
-#beerCarousel .carousel-item h4::after {
-  content: "";
-  width: 60%;
-  height: 1px;
-  display: block;
-  clear: both;
-  background-color: black;
-  margin: auto;
-  margin-top: 0.6rem;
-}
-
-h3 {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-.uppercase {
-  text-transform: uppercase;
-}
-
-/*----- COLORS -----*/
-
-body {
-  background-color: #fffff2;
-}
-
-a {
-  color: #ed1651;
-}
-
-a:hover {
-  color: #a70432;
-  text-decoration: none;
-}
-
-/*---- ELEMENTS -----*/
+/* ELEMENTS */
 .btn-primary {
   background-color: #ed1651;
   font-family: "Raleway", sans-serif;
@@ -257,7 +258,7 @@ a:hover {
   margin-right: 6px;
 }
 
-/*----- SPACING -----*/
+/* SPACING */
 
 .content-container,
 .nav-container nav,
@@ -275,7 +276,7 @@ a:hover {
   margin-top: 2rem;
 }
 
-/*---- BEER LIST ----*/
+/* BEER LIST */
 
 .beer-info {
   display: none;
@@ -300,7 +301,7 @@ a:hover {
   text-align: center;
 }
 
-/*---- MODAL FORMATTING ----*/
+/* BEER MODAL FORMATTING */
 
 .modal-content {
   border-radius: 0;
@@ -351,7 +352,7 @@ button.close {
   border-radius: 0;
 }
 
-/*---- MOBILE BEER CAROUSEL ----*/
+/* MOBILE BEER CAROUSEL */
 
 #beerCarousel .beer-carousel-img {
   width: 100%;
@@ -378,7 +379,7 @@ button.close {
   padding-right: 0.3rem;
 }
 
-/*---- VISIT PAGE / FORM ----*/
+/* VISIT PAGE / FORM */
 
 .form-wrapper {
   width: 60%;
@@ -391,7 +392,7 @@ button.close {
   border: solid 1px #ccc;
 }
 
-/*---- HOMEPAGE MAP FORMATTING ----*/
+/* HOMEPAGE MAP FORMATTING */
 .map-container iframe {
   border: none;
   margin-top: -50px;
@@ -412,7 +413,7 @@ button.close {
   z-index: 1;
 }
 
-/*---- MEDIA QUERIES ----*/
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 600px) {
   .form-wrapper {
