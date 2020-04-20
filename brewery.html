@@ -1,267 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>BREWERY | Polygonal Brewing Co.</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>BREWERY | Polygonal Brewing Co.</title>
+    </head>
 
-  <body class="d-flex flex-column">
-    <!-- HEADER -->
-    <header class="sticky-top">
-      <div class="nav-container container-fluid bg-custom">
-        <nav class="navbar navbar-expand-md navbar-dark">
-          <!-- LOGO -->
-          <a class="navbar-brand logo" href="index.html"
-            ><img
-              src="assets/images/polygonal-logo-white-v2.png"
-              alt="Polygonal Brewing Logo"
-          /></a>
-          <!-- TOGGLE NAV ICON ON MOBILE -->
-          <button
-            class="navbar-toggler ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- NAVIGATION -->
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul id="nav" class="navbar-nav ml-auto">
-              <li class="nav-item text-center">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="beers.html">Beers</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link active" href="brewery.html"
-                  >The Brewery<span class="sr-only"> (current)</span></a
-                >
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="visit.html">Visit</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <section id="page-content">
-      <div class="container content-container">
+    <body class="d-flex flex-column">
         <!-- HEADER -->
-        <div class="text-center">
-          <h2 class="uppercase center-title">The Brewery</h2>
-        </div>
+        <header class="sticky-top">
+            <div class="nav-container container-fluid bg-custom">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <!-- LOGO -->
+                    <a class="navbar-brand logo" href="index.html"
+                        ><img
+                            src="assets/images/polygonal-logo-white-v2.png"
+                            alt="Polygonal Brewing Logo"
+                    /></a>
+                    <!-- TOGGLE NAV ICON ON MOBILE -->
+                    <button
+                        class="navbar-toggler ml-auto"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- NAVIGATION -->
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul id="nav" class="navbar-nav ml-auto">
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="beers.html">Beers</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link active" href="brewery.html"
+                                    >The Brewery<span class="sr-only">
+                                        (current)</span
+                                    ></a
+                                >
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="visit.html">Visit</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
-        <!-- SLIDESHOW -->
-        <div class="row">
-          <div
-            class="col carousel slide"
-            data-ride="carousel"
-            id="homepage-carousel"
-            data-interval="6000"
-            data-touch="true"
-          >
-            <ol class="carousel-indicators">
-              <li
-                data-target="#homepage-carousel"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li data-target="#homepage-carousel" data-slide-to="1"></li>
-              <li data-target="#homepage-carousel" data-slide-to="2"></li>
-              <li data-target="#homepage-carousel" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  class="d-block w-100"
-                  src="assets/images/brewery-photo1.jpg"
-                  alt="Brewers surrounded by fermentation tanks"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="assets/images/brewery-photo2.jpg"
-                  alt="Bag of malt near fermenter"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="assets/images/brewery-photo4.jpg"
-                  alt="Pouring beer from tank tap"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="assets/images/brewery-photo3.jpg"
-                  alt="Beer on canning line"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- TEXT CONTENT -->
-        <div class="row row-buffer">
-          <div class="col-md-4">
-            <div class="text-center">
-              <h3>Who we are</h3>
-            </div>
-            <p>
-              We started as a group of home brewers passionate with beer and
-              brewing. After winning a few home brewing competitions, we decided
-              to jump into the deep end and start brewing professionally. Five
-              years later here we are, still brewing with a passion, bringing
-              even more excellence and expertise to our craft.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <div class="text-center">
-              <h3>What we do</h3>
-            </div>
-            <p>
-              Our goal is to use the tradition of beer as a springboard into
-              creativity. Every beer is a passion project, brewed with the
-              highest quality ingredients, each recipe fine-tuned to perfection.
-              We want every single one of our drinks to be a delight to consume,
-              and they certainly are to our brewers.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <div class="text-center">
-              <h3>Why we do it</h3>
-            </div>
-            <p>
-              We love beer and we love to make beer, but beer would be nothing
-              without people. We believe beer is a delicious way to bring people
-              together. The community around us has been essential in keeping
-              this project going, and by doing what we love, we get to thank
-              this community and add new friends to it.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <a class="btn btn-primary" href="visit.html">Book a tour</a>
-          </div>
-        </div>
-      </div>
-    </section>
+        <section id="page-content">
+            <div class="container content-container">
+                <!-- HEADER -->
+                <div class="text-center">
+                    <h2 class="uppercase center-title">The Brewery</h2>
+                </div>
 
-    <!-- FOOTER -->
-    <footer id="sticky-footer">
-      <div class="container-fluid bg-custom">
-        <div class="row footer-container text-center text-md-left">
-          <div class="col-md-3 footer-info">
-            <h4>Contact</h4>
-            <ul class="fa-ul">
-              <li>
-                <span class="fa-li d-none d-md-inline"
-                  ><i class="fa fa-location-arrow"></i></span
-                ><i class="fa fa-location-arrow d-md-none pr-2"></i> Beer St.
-                <br />Oslo, Norway
-              </li>
-              <li>
-                <span class="fa-li d-none d-md-inline"
-                  ><i class="fa fa-phone"></i></span
-                ><i class="fa fa-phone d-md-none pr-2"></i
-                ><a href="tel:555-123-4567">555-123-4567</a>
-              </li>
-              <li>
-                <span class="fa-li d-none d-md-inline"
-                  ><i class="fa fa-envelope"></i></span
-                ><i class="fa fa-envelope d-md-none pr-2"></i
-                ><a href="mailto:contact@polygonal.com"
-                  >contact@polygonal.com</a
-                >
-              </li>
-            </ul>
-            <hr class="d-md-none" />
-          </div>
-          <div class="col-md-3 hours">
-            <h4>Opening Hours</h4>
-            <ul class="list-unstyled">
-              <li>Monday: 12:00 - 00:00</li>
-              <li>Tuesday: 12:00 - 00:00</li>
-              <li>Wednesday: 12:00 - 00:00</li>
-              <li>Thursday: 12:00 - 1:00</li>
-              <li>Friday: 12:00 - 2:00</li>
-              <li>Saturday: 12:00 - 2:00</li>
-              <li>Sunday: closed</li>
-            </ul>
-            <hr class="d-md-none" />
-          </div>
-          <div class="col-md-3 footer-form">
-            <h4>Stay In Touch</h4>
-            <form class="form-group">
-              <input
-                type="email"
-                required
-                class="form-control"
-                placeholder="Email"
-              />
-              <div class="text-right">
-                <button type="submit" class="btn btn-primary form-control">
-                  send
-                </button>
-              </div>
-            </form>
-            <hr class="d-md-none" />
-          </div>
-          <div class="col-md-3 social">
-            <h4>Connect</h4>
-            <ul class="list-inline">
-              <li class="list-inline-item align-middle">
-                <a href="https://facebook.com"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-              </li>
-              <li class="list-inline-item align-middle">
-                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li class="list-inline-item align-middle">
-                <a href="https://instagram.com"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </li>
-              <li class="list-inline-item align-middle">
-                <a href="https://untappd.com"><i class="fab fa-untappd"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- SCRIPTS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+                <!-- SLIDESHOW -->
+                <div class="row">
+                    <div
+                        class="col carousel slide"
+                        data-ride="carousel"
+                        id="homepage-carousel"
+                        data-interval="6000"
+                        data-touch="true"
+                    >
+                        <ol class="carousel-indicators">
+                            <li
+                                data-target="#homepage-carousel"
+                                data-slide-to="0"
+                                class="active"
+                            ></li>
+                            <li
+                                data-target="#homepage-carousel"
+                                data-slide-to="1"
+                            ></li>
+                            <li
+                                data-target="#homepage-carousel"
+                                data-slide-to="2"
+                            ></li>
+                            <li
+                                data-target="#homepage-carousel"
+                                data-slide-to="3"
+                            ></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img
+                                    class="d-block w-100"
+                                    src="assets/images/brewery-photo1.jpg"
+                                    alt="Brewers surrounded by fermentation tanks"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    class="d-block w-100"
+                                    src="assets/images/brewery-photo2.jpg"
+                                    alt="Bag of malt near fermenter"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    class="d-block w-100"
+                                    src="assets/images/brewery-photo4.jpg"
+                                    alt="Pouring beer from tank tap"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    class="d-block w-100"
+                                    src="assets/images/brewery-photo3.jpg"
+                                    alt="Beer on canning line"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TEXT CONTENT -->
+                <div class="row row-buffer">
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <h3>Who we are</h3>
+                        </div>
+                        <p>
+                            We started as a group of home brewers passionate
+                            with beer and brewing. After winning a few home
+                            brewing competitions, we decided to jump into the
+                            deep end and start brewing professionally. Five
+                            years later here we are, still brewing with a
+                            passion, bringing even more excellence and expertise
+                            to our craft.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <h3>What we do</h3>
+                        </div>
+                        <p>
+                            Our goal is to use the tradition of beer as a
+                            springboard into creativity. Every beer is a passion
+                            project, brewed with the highest quality
+                            ingredients, each recipe fine-tuned to perfection.
+                            We want every single one of our drinks to be a
+                            delight to consume, and they certainly are to our
+                            brewers.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <h3>Why we do it</h3>
+                        </div>
+                        <p>
+                            We love beer and we love to make beer, but beer
+                            would be nothing without people. We believe beer is
+                            a delicious way to bring people together. The
+                            community around us has been essential in keeping
+                            this project going, and by doing what we love, we
+                            get to thank this community and add new friends to
+                            it.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <a class="btn btn-primary" href="visit.html"
+                            >Book a tour</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="sticky-footer">
+            <div class="container-fluid bg-custom">
+                <div class="row footer-container text-center text-md-left">
+                    <div class="col-md-3 footer-info">
+                        <h4>Contact</h4>
+                        <ul class="fa-ul">
+                            <li>
+                                <span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-location-arrow"></i></span
+                                ><i
+                                    class="fa fa-location-arrow d-md-none pr-2"
+                                ></i>
+                                Beer St. <br />Oslo, Norway
+                            </li>
+                            <li>
+                                <span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-phone"></i></span
+                                ><i class="fa fa-phone d-md-none pr-2"></i
+                                ><a href="tel:555-123-4567">555-123-4567</a>
+                            </li>
+                            <li>
+                                <span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-envelope"></i></span
+                                ><i class="fa fa-envelope d-md-none pr-2"></i
+                                ><a href="mailto:contact@polygonal.com"
+                                    >contact@polygonal.com</a
+                                >
+                            </li>
+                        </ul>
+                        <hr class="d-md-none" />
+                    </div>
+                    <div class="col-md-3 hours">
+                        <h4>Opening Hours</h4>
+                        <ul class="list-unstyled">
+                            <li>Monday: 12:00 - 00:00</li>
+                            <li>Tuesday: 12:00 - 00:00</li>
+                            <li>Wednesday: 12:00 - 00:00</li>
+                            <li>Thursday: 12:00 - 1:00</li>
+                            <li>Friday: 12:00 - 2:00</li>
+                            <li>Saturday: 12:00 - 2:00</li>
+                            <li>Sunday: closed</li>
+                        </ul>
+                        <hr class="d-md-none" />
+                    </div>
+                    <div class="col-md-3 footer-form">
+                        <h4>Stay In Touch</h4>
+                        <form class="form-group">
+                            <input
+                                type="email"
+                                required
+                                class="form-control"
+                                placeholder="Email"
+                            />
+                            <div class="text-right">
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary form-control"
+                                >
+                                    send
+                                </button>
+                            </div>
+                        </form>
+                        <hr class="d-md-none" />
+                    </div>
+                    <div class="col-md-3 social">
+                        <h4>Connect</h4>
+                        <ul class="list-inline">
+                            <li class="list-inline-item align-middle">
+                                <a href="https://facebook.com"
+                                    ><i class="fab fa-facebook-f"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item align-middle">
+                                <a href="https://twitter.com"
+                                    ><i class="fab fa-twitter"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item align-middle">
+                                <a href="https://instagram.com"
+                                    ><i class="fab fa-instagram"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item align-middle">
+                                <a href="https://untappd.com"
+                                    ><i class="fab fa-untappd"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- SCRIPTS -->
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

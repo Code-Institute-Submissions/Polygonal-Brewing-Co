@@ -1,4 +1,4 @@
-![alt text](https://jumboduck.github.io/Polygonal-Brewing-Co/assets/wireframes/polygonal-readme-logo.png "Polygonal Brewing Co. logo")
+![alt text](https://jumboduck.github.io/Polygonal-Brewing-Co/wireframes/polygonal-readme-logo.png "Polygonal Brewing Co. logo")
 
 # POLYGONAL BREWING CO. WEBSITE
 
@@ -7,10 +7,10 @@
 This is the front-facing website of a hypothetical craft brewery. Its purpose is to invite visitors to its facilities while highlighting its products and elevating its brand.
 It is divided in 4 pages:
 
-- Home: introduces the brewery and gives information about access
-- Beers: showcases the brewery’s products in an attractive way
-- Brewery: explains the company’s ethos and values
-- Visit: a form for users to plan a visit and get in touch
+-   Home: introduces the brewery and gives information about access
+-   Beers: showcases the brewery’s products in an attractive way
+-   Brewery: explains the company’s ethos and values
+-   Visit: a form for users to plan a visit and get in touch
 
 ## DEPLOYMENT AND LIVE DEMO
 
@@ -20,11 +20,11 @@ The site has been deployed to github and is accessible on [github pages](https:/
 
 A detailed wire framing process was undertaken to oversee the structure of the site and ensure proper organization of content on desktop and mobile versions of the site.
 
-The final version of the wireframe can be found [here](https://jumboduck.github.io/Polygonal-Brewing-Co/assets/wireframes/Polygonal-Brewing-Wireframe.pdf).
+The final version of the wireframe can be found [here](https://jumboduck.github.io/Polygonal-Brewing-Co/wireframes/Polygonal-Brewing-Wireframe.pdf).
 
 ## UX
 
-![alt text](https://jumboduck.github.io/Polygonal-Brewing-Co/assets/wireframes/devices-display.png "Polygonal Brewing Co. logo")
+![alt text](https://jumboduck.github.io/Polygonal-Brewing-Co/wireframes/devices-display.png "Polygonal Brewing Co. logo")
 
 The site was built for a comfortable intuitive experience across all devices, while maintaining brand authenticity.
 
@@ -38,12 +38,12 @@ Throughout the site, the navigation stays at the top of the display for ease of 
 
 The site uses various features from bootstrap:
 
-- Image carousels to give users an overview of what to expect on location.
-- Sticky navigation, collapsable on mobile.
-- Modal windows on [Beers](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html) page to display information about products.
-- Progress bars in said modal windows to display caracteristics of product.
-- On mobile devices the [Beers](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html) page changes to a carousel, displaying the content in a more user-friendly fashion. Users can swipe left and right to navigate the information.
-- Flexbox classes used to keep footer at the bottom of the page, regardless of content size.
+-   Image carousels to give users an overview of what to expect on location.
+-   Sticky navigation, collapsable on mobile.
+-   Modal windows on [Beers](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html) page to display information about products.
+-   Progress bars in said modal windows to display caracteristics of product.
+-   On mobile devices the [Beers](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html) page changes to a carousel, displaying the content in a more user-friendly fashion. Users can swipe left and right to navigate the information.
+-   Flexbox classes used to keep footer at the bottom of the page, regardless of content size.
 
 ## TESTING
 
@@ -59,19 +59,28 @@ As the [beer listing](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.htm
 
 ## TECHNOLOGIES
 
-- HTML 5
-- CSS 3
-- Bootstrap 4.4.1
+### Languages, Frameworks, Editors
+
+-   HTML
+-   CSS
+-   Bootstrap
+
+### Tools Used
+
+-   Balsamiq: Used to create wireframes
+-   Gitpod: IDE used for creating and editing code
+-   [fontawesome.com](https://fontawesome.com): used for all icons throughout the site
+-   [Google MyMaps](https://www.google.com/maps/about/mymaps/): used for custom map on homepage
+-   [Google Fonts](https://fonts.google.com/): Raleway and Montserrat throughout the website imported from google fonts
+-   Adobe Photoshop: For creation and editing of all photos and images across the site
 
 ## MEDIA
 
-- Vector designs throughout the site (header, footer, and can design) were provided by Patrickss on freepik.com https://www.freepik.com/patrickss, and were edited and resized by myself for the purposed of the site
-- Photos throughout website are courtesy of unsplash.com
-- Icons from fontawesome.com
-- Map on homepage designed with google MyMaps
+-   Vector designs throughout the site (header, footer, and can design) were provided by Patrickss on freepik.com https://www.freepik.com/patrickss, and were edited and resized by myself for the purposes of the site
+-   Photos throughout website are courtesy of [https://unsplash.com/](unsplash.com)
 
 ## ACKNOWLEDGMENTS
 
-- Overlay of map to prevent accidental zooming while scrolling, courtesy of [Tania Rascia](https://www.taniarascia.com/prevent-mouse-scroll-from-zooming-on-embedded-google-maps/)
-- Sticky Footer code from [startbootstrap.com](https://startbootstrap.com/snippets/sticky-footer-flexbox/)
-- Font for logo is [Polya by Adrien Coquet](https://www.behance.net/gallery/20118341/POLYA-Free-Font_)
+-   Overlay of map to prevent accidental zooming while scrolling, courtesy of [Tania Rascia](https://www.taniarascia.com/prevent-mouse-scroll-from-zooming-on-embedded-google-maps/)
+-   Sticky Footer code from [startbootstrap.com](https://startbootstrap.com/snippets/sticky-footer-flexbox/)
+-   Font for logo is [Polya by Adrien Coquet](https://www.behance.net/gallery/20118341/POLYA-Free-Font_)
