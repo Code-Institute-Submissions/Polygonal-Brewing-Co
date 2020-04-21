@@ -87,8 +87,10 @@ Form validation was tested on both the [Visit](https://jumboduck.github.io/Polyg
 -   [Google MyMaps](https://www.google.com/maps/about/mymaps/): used for custom map on homepage
 -   [Google Fonts](https://fonts.google.com/): Raleway and Montserrat fonts imported from google fonts
 -   Adobe Photoshop: For creation and editing of all photos and images across the site
--   [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en): used to test site at different screen sizes
+-   [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en): a google chrome extension used to test site at different screen sizes
 -   [TinyPNG](https://tinypng.com/) used to compress images
+-   [Pingdom](https://www.pingdom.com/) used to test site performance
+-   [W3C Validator](https://validator.w3.org/) used to validate HTML code
 
 ## MEDIA
 
