@@ -44,6 +44,7 @@ h3 {
     margin-bottom: 5px;
     display: inline-block;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -377,18 +378,18 @@ button.close {
 }
 
 /* HOMEPAGE MAP FORMATTING */
-.map-container iframe {
+#map-container iframe {
     border: none;
     margin-top: -50px;
     width: 100%;
     height: 20rem;
 }
 
-.map-container {
+#map-container {
     overflow: hidden;
 }
 
-.map-overlay {
+#map-overlay {
     position: relative;
     width: 100%;
     height: 20rem;
