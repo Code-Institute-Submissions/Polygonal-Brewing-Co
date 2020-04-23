@@ -92,6 +92,8 @@ The site was tested on various platforms to ensure proper display across differe
 
 Form validation was tested on both the [Visit](https://jumboduck.github.io/Polygonal-Brewing-Co/visit.html) page and the footer form.
 
+The HTML was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [pingdom.com](https://www.pingdom.com/)
+
 ### Issues and Bugs
 
 -   The map was originally used using Google Maps. The inability to customize the map brought me to use Google MyMaps instead. This lead to another issue where scrolling down a page with a mouse wheel (or touch pad equivalent) caused the map to zoom in when the cursor was over the map. This was fixed by covering the map with an invisible html container, rendering the mouse wheel ineffective until clicked.
