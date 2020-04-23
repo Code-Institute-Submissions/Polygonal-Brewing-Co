@@ -28,6 +28,8 @@ The final version of the wireframe can be found [here](https://jumboduck.github.
 
 For the purposes of this project, a branding scheme was created for the brewery from which its visual identity would ensue. This would carry the design on the website and of the brewery's products, represented by the can designs on the [beers page](https://jumboduck.github.io/Polygonal-Brewing-Co/beers.html).
 
+![alt text](https://jumboduck.github.io/Polygonal-Brewing-Co/wireframes/can-lineup.png "Polygonal Brewing Co. Cans")
+
 The visual identity of Polygonal Brewing Co. is represented by 2 fonts: Raleway for titles and headers, and Montserrat for content. The brand relies on colorful polygonal shapes contrasted with white or off-white backgrounds and text for recognizability.
 
 This conveys an aesthetic of playfulness, creativity, and precision, all core values of the company's brand.
