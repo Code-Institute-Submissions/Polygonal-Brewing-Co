@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, user-scalable=no"
-        />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-        />
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-        <title>VISIT | Polygonal Brewing Co.</title>
-    </head>
 
-    <body class="d-flex flex-column">
-        <!-- HEADER -->
-        <header class="sticky-top">
-            <div class="nav-container container-fluid bg-custom">
-                <nav class="navbar navbar-expand-md navbar-dark">
-                    <!-- LOGO -->
-                    <a class="navbar-brand logo" href="index.html"
-                        ><img
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>VISIT | Polygonal Brewing Co.</title>
+</head>
+
+<body class="d-flex flex-column">
+	<!-- HEADER -->
+	<header class="sticky-top">
+		<div class="nav-container container-fluid bg-custom">
+			<nav class="navbar navbar-expand-md navbar-dark">
+				<!-- LOGO -->
+				<a class="navbar-brand logo" href="index.html"><img
                             src="assets/images/polygonal-logo-white-v2.png"
                             alt="Polygonal Brewing Logo"
                     /></a>
-                    <!-- TOGGLE NAV ICON ON MOBILE -->
-                    <button
+					<!-- TOGGLE NAV ICON ON MOBILE -->
+					<button
                         class="navbar-toggler ml-auto"
                         type="button"
                         data-toggle="collapse"
@@ -43,56 +34,47 @@
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <!-- NAVIGATION -->
-                    <div
-                        class="collapse navbar-collapse"
-                        id="navbarNavDropdown"
-                    >
-                        <ul id="nav" class="navbar-nav ml-auto">
-                            <li class="nav-item text-center">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item text-center">
-                                <a class="nav-link" href="beers.html">Beers</a>
-                            </li>
-                            <li class="nav-item text-center">
-                                <a class="nav-link" href="brewery.html"
-                                    >The Brewery<span class="sr-only">
-                                        (current)</span
-                                    ></a
-                                >
-                            </li>
-                            <li class="nav-item text-center">
-                                <a class="nav-link active" href="visit.html"
-                                    >Visit<span class="sr-only">
-                                        (current)</span
-                                    ></a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+					<!-- NAVIGATION -->
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul id="nav" class="navbar-nav ml-auto">
+							<li class="nav-item text-center">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item text-center">
+								<a class="nav-link" href="beers.html">Beers</a>
+							</li>
+							<li class="nav-item text-center">
+								<a class="nav-link" href="brewery.html">The Brewery<span class="sr-only">
+                                        (current)</span></a>
+							</li>
+							<li class="nav-item text-center">
+								<a class="nav-link active" href="visit.html">Visit<span class="sr-only">
+                                        (current)</span></a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+		</div>
+	</header>
 
-        <!-- MAIN CONTENT AND FORM -->
+	<!-- MAIN CONTENT AND FORM -->
 
-        <section id="page-content">
-            <div class="container content-container visit-content">
-                <div class="text-center">
-                    <h2 class="uppercase center-title">Visit Us</h2>
-                </div>
+	<section id="page-content">
+		<div class="container content-container visit-content">
+			<div class="text-center">
+				<h2 class="uppercase center-title">Visit Us</h2>
+			</div>
 
-                <p>
-                    We'd love to have you around, whether for a tasting or to
-                    show you our facilities and walk you through the brewing
-                    process. You are always welcome here.
-                </p>
-                <div class="form-wrapper">
-                    <form>
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <input
+			<p>
+				We'd love to have you around, whether for a tasting or to
+				show you our facilities and walk you through the brewing
+				process. You are always welcome here.
+			</p>
+			<div class="form-wrapper">
+				<form>
+					<div class="form-row">
+						<div class="col form-group">
+							<input
                                     class="form-control"
                                     type="text"
                                     name="name"
@@ -102,10 +84,10 @@
                                     aria-label="Name"
                                 />
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <input
+						</div>
+						<div class="form-row">
+							<div class="col form-group">
+								<input
                                     class="form-control"
                                     type="email"
                                     name="email"
@@ -115,11 +97,11 @@
                                     aria-label="Email"
                                 />
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <label for="date">Date:</label>
-                                <input
+							</div>
+							<div class="form-row">
+								<div class="col form-group">
+									<label for="date">Date:</label>
+									<input
                                     class="form-control"
                                     type="date"
                                     name="date"
@@ -129,9 +111,9 @@
                                 />
                             </div>
 
-                            <div class="col form-group">
-                                <label for="time">Time:</label>
-                                <input
+									<div class="col form-group">
+										<label for="time">Time:</label>
+										<input
                                     class="form-control"
                                     type="time"
                                     name="time"
@@ -143,11 +125,11 @@
                                     aria-label="time"
                                 />
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <label for="guests">Number of guests</label>
-                                <input
+									</div>
+									<div class="form-row">
+										<div class="col form-group">
+											<label for="guests">Number of guests</label>
+											<input
                                     class="form-control"
                                     type="number"
                                     id="guests"
@@ -159,10 +141,9 @@
                                     aria-label="number of guests"
                                 />
                             </div>
-
-                            <div class="col form-group">
-                                <label for="visit-type">Type of visit</label>
-                                <select
+											<div class="col form-group">
+												<label for="visit-type">Type of visit</label>
+												<select
                                     id="visit-type"
                                     class="form-control custom-select"
                                     name="visit-type"
@@ -173,168 +154,142 @@
                                     >
                                     <option value="tour">Tour</option>
                                 </select>
-                            </div>
-                        </div>
-                        <div class="form-row form-group">
-                            <div class="col">
-                                <textarea
+											</div>
+										</div>
+										<div class="form-row form-group">
+											<div class="col">
+												<textarea
                                     class="form-control"
                                     name="comments"
                                     id="form-comment"
                                     rows="3"
                                     placeholder="Anything you would like us to know about?"
+                                    aria-label="additional comments"
                                 ></textarea>
-                            </div>
-                        </div>
-                        <div class="form-row form-group">
-                            <div class="col">
-                                <div class="form-check">
-                                    <input
+											</div>
+										</div>
+										<div class="form-row form-group">
+											<div class="col">
+												<div class="form-check">
+													<input
                                         class="form-check-input"
                                         type="checkbox"
                                         value=""
                                         id="signup"
+                                        aria-label="subscribe to our newsletter"
                                     />
-                                    <label
+													<label
                                         class="form-check-label"
                                         for="signup"
                                     >
                                         I'd like to subscribe to your newsletter
                                     </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col text-center">
-                                <input
+												</div>
+											</div>
+										</div>
+										<div class="form-row">
+											<div class="col text-center">
+												<input
                                     type="submit"
                                     class="btn btn-primary"
                                     value="cheers!"
+                                    aria-label="submit-form"
                                 />
                             </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- FOOTER -->
-        <footer id="sticky-footer">
-            <div class="container-fluid bg-custom">
-                <div class="row footer-container text-center text-md-left">
-                    <div class="col-md-3 footer-info">
-                        <h4>Contact</h4>
-                        <ul class="fa-ul">
-                            <li>
-                                <span class="fa-li d-none d-md-inline"
-                                    ><i class="fa fa-location-arrow"></i></span
-                                ><i
+											</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer id="sticky-footer">
+		<div class="container-fluid bg-custom">
+			<div class="row footer-container text-center text-md-left">
+				<div class="col-md-3 footer-info">
+					<h4>Contact</h4>
+					<ul class="fa-ul">
+						<li>
+							<span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-location-arrow"></i></span><i
                                     class="fa fa-location-arrow d-md-none pr-2"
                                 ></i>
-                                Beer St. <br />Oslo, Norway
+							Beer St. <br />Oslo, Norway
                             </li>
-                            <li>
-                                <span class="fa-li d-none d-md-inline"
-                                    ><i class="fa fa-phone"></i></span
-                                ><i class="fa fa-phone d-md-none pr-2"></i
-                                ><a
-                                    aria-label="phone number"
-                                    href="tel:555-123-4567"
-                                    >555-123-4567</a
-                                >
-                            </li>
-                            <li>
-                                <span class="fa-li d-none d-md-inline"
-                                    ><i class="fa fa-envelope"></i></span
-                                ><i class="fa fa-envelope d-md-none pr-2"></i
-                                ><a
-                                    aria-label="email"
-                                    href="mailto:contact@polygonal.com"
-                                    >contact@polygonal.com</a
-                                >
-                            </li>
-                        </ul>
-                        <hr class="d-md-none" />
-                    </div>
-                    <div class="col-md-3 hours">
-                        <h4>Opening Hours</h4>
-                        <ul class="list-unstyled">
-                            <li>Monday: 12:00 - 00:00</li>
-                            <li>Tuesday: 12:00 - 00:00</li>
-                            <li>Wednesday: 12:00 - 00:00</li>
-                            <li>Thursday: 12:00 - 1:00</li>
-                            <li>Friday: 12:00 - 2:00</li>
-                            <li>Saturday: 12:00 - 2:00</li>
-                            <li>Sunday: closed</li>
-                        </ul>
-                        <hr class="d-md-none" />
-                    </div>
-                    <div class="col-md-3 footer-form">
-                        <h4>Stay In Touch</h4>
-                        <form class="form-group">
-                            <input
+						<li>
+							<span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-phone"></i></span><i class="fa fa-phone d-md-none pr-2"></i><a
+								aria-label="phone number" href="tel:555-123-4567">555-123-4567</a>
+						</li>
+						<li>
+							<span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-envelope"></i></span><i class="fa fa-envelope d-md-none pr-2"></i><a
+								aria-label="email" href="mailto:contact@polygonal.com">contact@polygonal.com</a>
+						</li>
+					</ul>
+					<hr class="d-md-none" />
+				</div>
+				<div class="col-md-3 hours">
+					<h4>Opening Hours</h4>
+					<ul class="list-unstyled">
+						<li>Monday: 12:00 - 00:00</li>
+						<li>Tuesday: 12:00 - 00:00</li>
+						<li>Wednesday: 12:00 - 00:00</li>
+						<li>Thursday: 12:00 - 1:00</li>
+						<li>Friday: 12:00 - 2:00</li>
+						<li>Saturday: 12:00 - 2:00</li>
+						<li>Sunday: closed</li>
+					</ul>
+					<hr class="d-md-none" />
+				</div>
+				<div class="col-md-3 footer-form">
+					<h4>Stay In Touch</h4>
+					<form class="form-group">
+						<input
                                 type="email"
                                 required
                                 class="form-control"
                                 placeholder="Email"
                                 aria-label="Email address"
                             />
-                            <div class="text-right">
-                                <button
+						<div class="text-right">
+							<button
                                     type="submit"
                                     class="btn btn-primary form-control"
+                                    aria-label="submit-form"
                                 >
                                     send
                                 </button>
-                            </div>
-                        </form>
-                        <hr class="d-md-none" />
-                    </div>
-                    <div class="col-md-3 social">
-                        <h4>Connect</h4>
-                        <ul class="list-inline">
-                            <li class="list-inline-item align-middle">
-                                <a
-                                    aria-label="Facebook"
-                                    href="https://facebook.com"
-                                    target="_blank"
-                                    rel="noopener"
-                                    ><i class="fab fa-facebook-f"></i
-                                ></a>
-                            </li>
-                            <li class="list-inline-item align-middle">
-                                <a
-                                    aria-label="Twitter"
-                                    href="https://twitter.com"
-                                    target="_blank"
-                                    rel="noopener"
-                                    ><i class="fab fa-twitter"></i
-                                ></a>
-                            </li>
-                            <li class="list-inline-item align-middle">
-                                <a
-                                    aria-label="instagram"
-                                    href="https://instagram.com"
-                                    target="_blank"
-                                    rel="noopener"
-                                    ><i class="fab fa-instagram"></i
-                                ></a>
-                            </li>
-                            <li class="list-inline-item align-middle">
-                                <a
-                                    aria-label="untappd"
-                                    href="https://untappd.com"
-                                    target="_blank"
-                                    rel="noopener"
-                                    ><i class="fab fa-untappd"></i
-                                ></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- SCRIPTS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    </body>
+						</div>
+					</form>
+					<hr class="d-md-none" />
+				</div>
+				<div class="col-md-3 social">
+					<h4>Connect</h4>
+					<ul class="list-inline">
+						<li class="list-inline-item align-middle">
+							<a aria-label="Facebook" href="https://facebook.com" target="_blank"
+								rel="noopener"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="list-inline-item align-middle">
+							<a aria-label="Twitter" href="https://twitter.com" target="_blank"
+								rel="noopener"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="list-inline-item align-middle">
+							<a aria-label="instagram" href="https://instagram.com" target="_blank"
+								rel="noopener"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="list-inline-item align-middle">
+							<a aria-label="untappd" href="https://untappd.com" target="_blank"
+								rel="noopener"><i class="fab fa-untappd"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
 </html>
