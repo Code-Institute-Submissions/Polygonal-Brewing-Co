@@ -143,6 +143,6 @@ The HTML was validated on [W3C Validator](https://validator.w3.org/) and speed t
 
 ## ACKNOWLEDGMENTS
 
--   Overlay of map to prevent accidental zooming while scrolling, courtesy of [Tania Rascia](https://www.taniarascia.com/prevent-mouse-scroll-from-zooming-on-embedded-google-maps/)
+-   Overlay of map to prevent accidental zooming while scrolling, courtesy of [Tania Rascia](https://www.taniarascia.com/prevent-mouse-scroll-from-zooming-on-embedded-google-maps/) with updated javascript by [Felipe Alarcon](https://github.com/felipe-alarcon)
 -   Sticky Footer code from [startbootstrap.com](https://startbootstrap.com/snippets/sticky-footer-flexbox/)
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) and [Simen Daehlin](https://github.com/Eventyret) for their invaluable help and feedback and to the Code Institute slack community for their constant support.
