@@ -205,7 +205,7 @@ body {
 }
 
 #sticky-footer {
-    flex-shrink: none;
+    flex-shrink: 0;
 }
 
 /* ELEMENTS */
