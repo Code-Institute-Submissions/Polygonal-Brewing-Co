@@ -193,6 +193,12 @@ footer .fa-ul {
     margin-left: 0;
 }
 
+.hours-footer td {
+    border: none;
+    padding: 0px;
+    color: #fffff2;
+}
+
 /* STICKY FOOTER */
 
 html,
