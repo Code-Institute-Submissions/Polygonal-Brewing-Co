@@ -200,11 +200,11 @@ body {
     height: 100%;
 }
 
-#page-content {
+.page-content {
     flex: 1 0 auto;
 }
 
-#sticky-footer {
+.sticky-footer {
     flex-shrink: 0;
 }
 
@@ -247,6 +247,13 @@ body {
 
 .row-buffer {
     margin-top: 2rem;
+}
+
+/* OPENING HOURS TABLE */
+
+.hours-home td {
+    border-top: none;
+    padding: 0.5rem;
 }
 
 /* BEER LIST */

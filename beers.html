@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>BEERS | Polygonal Brewing Co.</title>
+    </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>BEERS | Polygonal Brewing Co.</title>
-</head>
-
-<body class="d-flex flex-column">
-	<!-- HEADER -->
-	<header class="sticky-top">
-		<div class="nav-container container-fluid bg-custom">
-			<nav class="navbar navbar-expand-md navbar-dark">
-				<!-- LOGO -->
-				<a class="navbar-brand logo" href="index.html"><img
+    <body class="d-flex flex-column">
+        <!-- HEADER -->
+        <header class="sticky-top">
+            <div class="nav-container container-fluid bg-custom">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <!-- LOGO -->
+                    <a class="navbar-brand logo" href="index.html"
+                        ><img
                             src="assets/images/polygonal-logo-white-v2.png"
                             alt="Polygonal Brewing Logo"
                     /></a>
-					<!-- TOGGLE NAV ICON ON MOBILE-->
-					<button
+                    <!-- TOGGLE NAV ICON ON MOBILE-->
+                    <button
                         class="navbar-toggler ml-auto"
                         type="button"
                         data-toggle="collapse"
@@ -34,566 +43,938 @@
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-					<!-- NAVIGATION -->
-					<div class="collapse navbar-collapse" id="navbarNavDropdown">
-						<ul id="nav" class="navbar-nav ml-auto">
-							<li class="nav-item text-center">
-								<a class="nav-link" href="index.html">Home<span class="sr-only">
-                                        (current)</span></a>
-							</li>
-							<li class="nav-item text-center">
-								<a class="nav-link active" href="beers.html">Beers<span class="sr-only">
-                                        (current)</span></a>
-							</li>
-							<li class="nav-item text-center">
-								<a class="nav-link" href="brewery.html">The Brewery</a>
-							</li>
-							<li class="nav-item text-center">
-								<a class="nav-link" href="visit.html">Visit</a>
-							</li>
-						</ul>
-					</div>
-			</nav>
-		</div>
-	</header>
-	<!-- MAIN CONTENT -->
-	<section id="page-content">
-		<div class="container content-container">
-			<div class="text-center">
-				<h2 class="center-title uppercase">Our Beers</h2>
-			</div>
-			<p>
-				Each one of our brews starts as a dream, an imagined concept
-				carried by years of experience and love for beer. We then
-				take this dream and make it into a reality, thanks to
-				expertise of our brewers. Each of the beers that you see
-				here has been crafted and fine tuned to perfection, and we
-				firmly believe everyone can find a drink that will refresh
-				and delight their palate.
-			</p>
-			<!-- DESKTOP VERSION GRID -->
-			<div class="d-none d-md-block">
-				<div class="row">
-					<div class="col-lg-3 col-md-4 col-sm-6">
-						<div class="beer-img text-center">
-							<a href="#featherweightModal" data-toggle="modal" data-target="#featherweightModal"><img
+                    <!-- NAVIGATION -->
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul id="nav" class="navbar-nav ml-auto">
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="index.html"
+                                    >Home<span class="sr-only">
+                                        (current)</span
+                                    ></a
+                                >
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link active" href="beers.html"
+                                    >Beers<span class="sr-only">
+                                        (current)</span
+                                    ></a
+                                >
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="brewery.html"
+                                    >The Brewery</a
+                                >
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="visit.html">Visit</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- MAIN CONTENT -->
+        <section class="page-content">
+            <div class="container content-container">
+                <div class="text-center">
+                    <h2 class="center-title uppercase">Our Beers</h2>
+                </div>
+                <p>
+                    Each one of our brews starts as a dream, an imagined concept
+                    carried by years of experience and love for beer. We then
+                    take this dream and make it into a reality, thanks to
+                    expertise of our brewers. Each of the beers that you see
+                    here has been crafted and fine tuned to perfection, and we
+                    firmly believe everyone can find a drink that will refresh
+                    and delight their palate.
+                </p>
+                <!-- DESKTOP VERSION GRID -->
+                <div class="d-none d-md-block">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="beer-img text-center">
+                                <a
+                                    href="#featherweightModal"
+                                    data-toggle="modal"
+                                    data-target="#featherweightModal"
+                                    ><img
                                         src="assets/images/can-featherweight.png"
                                         alt="Featherweight Pilsner Can"
                                     />
                                 </a>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6">
-						<div class="beer-img text-center">
-							<a href="#horsingModal" data-toggle="modal" data-target="#horsingModal"><img
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="beer-img text-center">
+                                <a
+                                    href="#horsingModal"
+                                    data-toggle="modal"
+                                    data-target="#horsingModal"
+                                    ><img
                                         src="assets/images/can-horsing-farmhouse.png"
                                         alt="Horsing Around Farmhouse Ale Can"
                                 /></a>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6">
-						<div class="beer-img text-center">
-							<a href="#wolfpupModal" data-toggle="modal" data-target="#wolfpupModal"><img
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="beer-img text-center">
+                                <a
+                                    href="#wolfpupModal"
+                                    data-toggle="modal"
+                                    data-target="#wolfpupModal"
+                                    ><img
                                         src="assets/images/can-wolf-pup-ipa.png"
                                         alt="Wolf Pup IPA Can"
                                 /></a>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6">
-						<div class="beer-img text-center">
-							<a href="#sourpussModal" data-toggle="modal" data-target="#sourpussModal"><img
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="beer-img text-center">
+                                <a
+                                    href="#sourpussModal"
+                                    data-toggle="modal"
+                                    data-target="#sourpussModal"
+                                    ><img
                                         src="assets/images/can-sour-puss.png"
                                         alt="Sour Puss Can"
                                 /></a>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6">
-						<div class="beer-img text-center">
-							<a href="#forestbrownModal" data-toggle="modal" data-target="#forestbrownModal"><img
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="beer-img text-center">
+                                <a
+                                    href="#forestbrownModal"
+                                    data-toggle="modal"
+                                    data-target="#forestbrownModal"
+                                    ><img
                                         src="assets/images/can-forest-brown.png"
                                         alt="Forest Brown Ale Can"
                                 /></a>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6">
-						<div class="beer-img text-center">
-							<a href="#bearjuiceModal" data-toggle="modal" data-target="#bearjuiceModal"><img
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="beer-img text-center">
+                                <a
+                                    href="#bearjuiceModal"
+                                    data-toggle="modal"
+                                    data-target="#bearjuiceModal"
+                                    ><img
                                         src="assets/images/can-bear-juice.png"
                                         alt="Bear Juice Can"
                                 /></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- MOBILE VERSION CAROUSEL -->
-			<div class="d-block d-md-none">
-				<div class="row">
-					<div class="col">
-						<div id="beerCarousel" class="carousel slide" data-ride="carousel" data-interval="false"
-							data-touch="true">
-							<ol class="carousel-indicators">
-								<li data-target="#beerCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#beerCarousel" data-slide-to="1"></li>
-								<li data-target="#beerCarousel" data-slide-to="2"></li>
-								<li data-target="#beerCarousel" data-slide-to="3"></li>
-								<li data-target="#beerCarousel" data-slide-to="4"></li>
-								<li data-target="#beerCarousel" data-slide-to="5"></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MOBILE VERSION CAROUSEL -->
+                <div class="d-block d-md-none">
+                    <div class="row">
+                        <div class="col">
+                            <div
+                                id="beerCarousel"
+                                class="carousel slide"
+                                data-ride="carousel"
+                                data-interval="false"
+                                data-touch="true"
+                            >
+                                <ol class="carousel-indicators">
+                                    <li
+                                        data-target="#beerCarousel"
+                                        data-slide-to="0"
+                                        class="active"
+                                    ></li>
+                                    <li
+                                        data-target="#beerCarousel"
+                                        data-slide-to="1"
+                                    ></li>
+                                    <li
+                                        data-target="#beerCarousel"
+                                        data-slide-to="2"
+                                    ></li>
+                                    <li
+                                        data-target="#beerCarousel"
+                                        data-slide-to="3"
+                                    ></li>
+                                    <li
+                                        data-target="#beerCarousel"
+                                        data-slide-to="4"
+                                    ></li>
+                                    <li
+                                        data-target="#beerCarousel"
+                                        data-slide-to="5"
+                                    ></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img
                                             class="d-block beer-carousel-img"
                                             src="assets/images/can-featherweight.png"
                                             alt="Featherweight can"
-                                        /><a class="art-credit text-center" href="https://www.freepik.com/patrickss"
-										target="_blank" aria-label="open in new window">vector art by Patrickss<i
+                                        /><a
+                                            class="art-credit text-center"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-									<div class="text-center row-buffer">
-										<h3>Featherweight</h3>
-									</div>
-									<p>
-										Featherweight finds its roots in the
-										traditional Czech Pilsners, with
-										it’s beautiful golden color, spicy
-										noble hop aromas, and crisp malty
-										profile. We bring it into the new
-										world with our house lager yeast,
-										which imparts it a fuller body than
-										what you’d expect from it’s 4% abv.
-										The result is a crisp, refreshing,
-										satisfying beverage that will
-										satisfy any thirst.
-									</p>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											body
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 50%;"
-													aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                        <div class="text-center row-buffer">
+                                            <h3>Featherweight</h3>
+                                        </div>
+                                        <p>
+                                            Featherweight finds its roots in the
+                                            traditional Czech Pilsners, with
+                                            it’s beautiful golden color, spicy
+                                            noble hop aromas, and crisp malty
+                                            profile. We bring it into the new
+                                            world with our house lager yeast,
+                                            which imparts it a fuller body than
+                                            what you’d expect from it’s 4% abv.
+                                            The result is a crisp, refreshing,
+                                            satisfying beverage that will
+                                            satisfy any thirst.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 50%;"
+                                                        aria-valuenow="50"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 70%;"
-													aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 70%;"
+                                                        aria-valuenow="70"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-								<div class="carousel-item">
-									<img
+                                    <div class="carousel-item">
+                                        <img
                                             class="d-block beer-carousel-img"
                                             src="assets/images/can-horsing-farmhouse.png"
                                             alt="Horsing Around farmhouse ale can"
-                                        /><a class="art-credit text-center" href="https://www.freepik.com/patrickss"
-										target="_blank" aria-label="open in new window">vector art by Patrickss<i
+                                        /><a
+                                            class="art-credit text-center"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-									<div class="text-center row-buffer">
-										<h4>Horsing Around</h4>
-									</div>
-									<p>
-										We let this brew free-ferment to let
-										the yeast impart all the esther
-										flavors that it can. We propped up
-										these flavors with american hops to
-										to give it that extra fruity kick.
-										At 7% abv, its complexity will
-										unveil new flavors with every sip.
-									</p>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											body
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 60%;"
-													aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                        <div class="text-center row-buffer">
+                                            <h4>Horsing Around</h4>
+                                        </div>
+                                        <p>
+                                            We let this brew free-ferment to let
+                                            the yeast impart all the esther
+                                            flavors that it can. We propped up
+                                            these flavors with american hops to
+                                            to give it that extra fruity kick.
+                                            At 7% abv, its complexity will
+                                            unveil new flavors with every sip.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 60%;"
+                                                        aria-valuenow="60"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 60%;"
-													aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 60%;"
+                                                        aria-valuenow="60"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 65%;"
-													aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 65%;"
+                                                        aria-valuenow="65"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-								<div class="carousel-item">
-									<img
+                                    <div class="carousel-item">
+                                        <img
                                             class="d-block beer-carousel-img"
                                             src="assets/images/can-wolf-pup-ipa.png"
                                             alt="Wolf Pup IPA can"
-                                        /><a class="art-credit text-center" href="https://www.freepik.com/patrickss"
-										target="_blank" aria-label="open in new window">vector art by Patrickss<i
+                                        /><a
+                                            class="art-credit text-center"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-									<div class="text-center row-buffer">
-										<h3>Wolf Pup</h3>
-									</div>
-									<p>
-										We made a crisp refreshing blonde
-										ale and loaded it with fruity
-										Australian hops. The outcome is a
-										beer that is packed with tropical
-										flavors, and that goes down way too
-										easily. At an accessible 5% abv,
-										we’ll wager you’ll go for a second
-										one.
-									</p>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											body
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 30%;"
-													aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 70%;"
-													aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                        <div class="text-center row-buffer">
+                                            <h3>Wolf Pup</h3>
+                                        </div>
+                                        <p>
+                                            We made a crisp refreshing blonde
+                                            ale and loaded it with fruity
+                                            Australian hops. The outcome is a
+                                            beer that is packed with tropical
+                                            flavors, and that goes down way too
+                                            easily. At an accessible 5% abv,
+                                            we’ll wager you’ll go for a second
+                                            one.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 30%;"
+                                                        aria-valuenow="30"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 70%;"
+                                                        aria-valuenow="70"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 85%;"
-													aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 85%;"
+                                                        aria-valuenow="85"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-								<div class="carousel-item">
-									<img
+                                    <div class="carousel-item">
+                                        <img
                                             class="d-block beer-carousel-img"
                                             src="assets/images/can-sour-puss.png"
                                             alt="Sour Puss Tropical Sour can"
-                                        /><a class="art-credit text-center" href="https://www.freepik.com/patrickss"
-										target="_blank" aria-label="open in new window">vector art by Patrickss<i
+                                        /><a
+                                            class="art-credit text-center"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-									<div class="text-center row-buffer">
-										<h3>Sour Puss</h3>
-									</div>
-									<p>
-										This beer was soured with
-										lactobacillus, lightly hopped with
-										mosaic hops, then infused with
-										passion fruit, mango, and pineapple.
-										We carbonated slightly more than we
-										should have to give it pleasant
-										sparkle on the tongue. It’ll scratch
-										that tropical fruit itch, and it’s
-										only 4.5% abv.
-									</p>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											body
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 30%;"
-													aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 10%;"
-													aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                        <div class="text-center row-buffer">
+                                            <h3>Sour Puss</h3>
+                                        </div>
+                                        <p>
+                                            This beer was soured with
+                                            lactobacillus, lightly hopped with
+                                            mosaic hops, then infused with
+                                            passion fruit, mango, and pineapple.
+                                            We carbonated slightly more than we
+                                            should have to give it pleasant
+                                            sparkle on the tongue. It’ll scratch
+                                            that tropical fruit itch, and it’s
+                                            only 4.5% abv.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 30%;"
+                                                        aria-valuenow="30"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 10%;"
+                                                        aria-valuenow="10"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 100%;"
-													aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 100%;"
+                                                        aria-valuenow="100"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-								<div class="carousel-item">
-									<img
+                                    <div class="carousel-item">
+                                        <img
                                             class="d-block beer-carousel-img"
                                             src="assets/images/can-forest-brown.png"
                                             alt="Forest Brown Ale can"
-                                        /><a class="art-credit text-center" href="https://www.freepik.com/patrickss"
-										target="_blank" aria-label="open in new window">vector art by Patrickss<i
+                                        /><a
+                                            class="art-credit text-center"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-									<div class="text-center row-buffer">
-										<h3>Forest Brown</h3>
-									</div>
-									<p>
-										This is the beer that first caught
-										the attention of the public Simple,
-										rich, straightforward, our brown ale
-										offers a full-bodied chocolate and
-										toffee profile that will leave you
-										satisfied. Its sweetness is balanced
-										out by the bitterness of its roasted
-										malts. At 6% abv, it’s one of our
-										favorites, and never disappoints.
-									</p>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											body
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 50%;"
-													aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                        <div class="text-center row-buffer">
+                                            <h3>Forest Brown</h3>
+                                        </div>
+                                        <p>
+                                            This is the beer that first caught
+                                            the attention of the public Simple,
+                                            rich, straightforward, our brown ale
+                                            offers a full-bodied chocolate and
+                                            toffee profile that will leave you
+                                            satisfied. Its sweetness is balanced
+                                            out by the bitterness of its roasted
+                                            malts. At 6% abv, it’s one of our
+                                            favorites, and never disappoints.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 50%;"
+                                                        aria-valuenow="50"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 60%;"
-													aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 60%;"
+                                                        aria-valuenow="60"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-								<div class="carousel-item">
-									<img
+                                    <div class="carousel-item">
+                                        <img
                                             class="d-block beer-carousel-img"
                                             src="assets/images/can-bear-juice.png"
                                             alt="Bear Juice Stout can"
-                                        /><a class="art-credit text-center" href="https://www.freepik.com/patrickss"
-										target="_blank" aria-label="open in new window">vector art by Patrickss<i
+                                        /><a
+                                            class="art-credit text-center"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-									<div class="text-center row-buffer">
-										<h3>Bear Juice</h3>
-									</div>
-									<p>
-										Lorem ipsum dolor sit amet,
-										consectetur adipiscing elit. Ut
-										fermentum vel tellus in accumsan.
-										Sed id eros vehicula odio placerat
-										viverra eget ac lacus. Nulla
-										accumsan mauris quis enim fringilla,
-										at elementum tortor placerat. Donec
-										accumsan et nisi porttitor viverra.
-									</p>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											body
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 100%;"
-													aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 10%;"
-													aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                        <div class="text-center row-buffer">
+                                            <h3>Bear Juice</h3>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Ut
+                                            fermentum vel tellus in accumsan.
+                                            Sed id eros vehicula odio placerat
+                                            viverra eget ac lacus. Nulla
+                                            accumsan mauris quis enim fringilla,
+                                            at elementum tortor placerat. Donec
+                                            accumsan et nisi porttitor viverra.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 100%;"
+                                                        aria-valuenow="100"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 10%;"
+                                                        aria-valuenow="10"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 90%;"
-													aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 90%;"
+                                                        aria-valuenow="90"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-4 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-8 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-4 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-8 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-							<a class="carousel-control-prev" href="#beerCarousel" role="button" data-slide="prev">
-								<span
+                                <a
+                                    class="carousel-control-prev"
+                                    href="#beerCarousel"
+                                    role="button"
+                                    data-slide="prev"
+                                >
+                                    <span
                                         class="carousel-control-prev-icon"
                                         aria-hidden="true"
                                     ></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#beerCarousel" role="button" data-slide="next">
-								<span
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a
+                                    class="carousel-control-next"
+                                    href="#beerCarousel"
+                                    role="button"
+                                    data-slide="next"
+                                >
+                                    <span
                                         class="carousel-control-next-icon"
                                         aria-hidden="true"
                                     ></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-	<!-- MODAL WINDOWS -->
-	<section>
-		<!-- Featherweight info modal -->
-		<div class="modal" id="featherweightModal" tabindex="-1" role="dialog" aria-labelledby="featherweightLabel"
-			aria-hidden="true">
-			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-				<div class="modal-content modal-bg">
-					<button
+        <!-- MODAL WINDOWS -->
+        <section>
+            <!-- Featherweight info modal -->
+            <div
+                class="modal"
+                id="featherweightModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="featherweightLabel"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                >
+                    <div class="modal-content modal-bg">
+                        <button
                             type="button"
                             class="close"
                             data-dismiss="modal"
@@ -601,98 +982,156 @@
                         >
                             <span aria-hidden="true">&times;</span>
                         </button>
-					<div class="modal-body">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-4 modal-img text-center">
-									<img
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4 modal-img text-center">
+                                        <img
                                             src="assets/images/can-featherweight.png"
                                             alt="Featherweight Pilsner Can"
                                         />
-									<a class="art-credit" href="https://www.freepik.com/patrickss" target="_blank"
-										aria-label="open in new window">vector art by Patrickss<i
+                                        <a
+                                            class="art-credit"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-								</div>
-								<div class="col-8">
-									<h3 id="featherweightLabel">
-										Featherweight
-									</h3>
-									<p>
-										Featherweight finds its roots in the
-										traditional Czech Pilsners, with
-										it’s beautiful golden color, spicy
-										noble hop aromas, and crisp malty
-										profile. We bring it into the new
-										world with our house lager yeast,
-										which imparts it a fuller body than
-										what you’d expect from it’s 4% abv.
-										The result is a crisp, refreshing,
-										satisfying beverage that will
-										satisfy any thirst.
-									</p>
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											body
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 50%;"
-													aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <h3 id="featherweightLabel">
+                                            Featherweight
+                                        </h3>
+                                        <p>
+                                            Featherweight finds its roots in the
+                                            traditional Czech Pilsners, with
+                                            it’s beautiful golden color, spicy
+                                            noble hop aromas, and crisp malty
+                                            profile. We bring it into the new
+                                            world with our house lager yeast,
+                                            which imparts it a fuller body than
+                                            what you’d expect from it’s 4% abv.
+                                            The result is a crisp, refreshing,
+                                            satisfying beverage that will
+                                            satisfy any thirst.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 50%;"
+                                                        aria-valuenow="50"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 70%;"
-													aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 70%;"
+                                                        aria-valuenow="70"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<!-- Horsing Around Modal Window -->
+            <!-- Horsing Around Modal Window -->
 
-		<div class="modal" id="horsingModal" tabindex="-1" role="dialog" aria-labelledby="horsingLabel"
-			aria-hidden="true">
-			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-				<div class="modal-content modal-bg">
-					<button
+            <div
+                class="modal"
+                id="horsingModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="horsingLabel"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                >
+                    <div class="modal-content modal-bg">
+                        <button
                             type="button"
                             class="close"
                             data-dismiss="modal"
@@ -700,94 +1139,152 @@
                         >
                             <span aria-hidden="true">&times;</span>
                         </button>
-					<div class="modal-body">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-4 modal-img text-center">
-									<img
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4 modal-img text-center">
+                                        <img
                                             src="assets/images/can-horsing-farmhouse.png"
                                             alt="Horsing Around Farmhouse Ale Can"
                                         />
-									<a class="art-credit" href="https://www.freepik.com/patrickss" target="_blank"
-										aria-label="open in new window">vector art by Patrickss<i
+                                        <a
+                                            class="art-credit"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-								</div>
-								<div class="col-8">
-									<h3 id="horsingLabel">
-										Horsing Around
-									</h3>
-									<p>
-										We let this brew free-ferment to let
-										the yeast impart all the esther
-										flavors that it can. We propped up
-										these flavors with american hops to
-										to give it that extra fruity kick.
-										At 7% abv, its complexity will
-										unveil new flavors with every sip.
-									</p>
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											body
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 60%;"
-													aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <h3 id="horsingLabel">
+                                            Horsing Around
+                                        </h3>
+                                        <p>
+                                            We let this brew free-ferment to let
+                                            the yeast impart all the esther
+                                            flavors that it can. We propped up
+                                            these flavors with american hops to
+                                            to give it that extra fruity kick.
+                                            At 7% abv, its complexity will
+                                            unveil new flavors with every sip.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 60%;"
+                                                        aria-valuenow="60"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 60%;"
-													aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 60%;"
+                                                        aria-valuenow="60"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 65%;"
-													aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 65%;"
+                                                        aria-valuenow="65"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<!-- Wolf Pup Modal Window -->
+            <!-- Wolf Pup Modal Window -->
 
-		<div class="modal" id="wolfpupModal" tabindex="-1" role="dialog" aria-labelledby="wolfpupLabel"
-			aria-hidden="true">
-			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-				<div class="modal-content modal-bg">
-					<button
+            <div
+                class="modal"
+                id="wolfpupModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="wolfpupLabel"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                >
+                    <div class="modal-content modal-bg">
+                        <button
                             type="button"
                             class="close"
                             data-dismiss="modal"
@@ -795,93 +1292,151 @@
                         >
                             <span aria-hidden="true">&times;</span>
                         </button>
-					<div class="modal-body">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-4 modal-img text-center">
-									<img
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4 modal-img text-center">
+                                        <img
                                             src="assets/images/can-wolf-pup-ipa.png"
                                             alt="Wolf Pup Session IPA Can"
                                         />
-									<a class="art-credit" href="https://www.freepik.com/patrickss" target="_blank"
-										aria-label="open in new window">vector art by Patrickss<i
+                                        <a
+                                            class="art-credit"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-								</div>
-								<div class="col-8">
-									<h3 id="wolfpupLabel">Wolf Pup</h3>
-									<p>
-										We made a crisp refreshing blonde
-										ale and loaded it with fruity
-										Australian hops. The outcome is a
-										beer that is packed with tropical
-										flavors, and that goes down way too
-										easily. At an accessible 5% abv,
-										we’ll wager you’ll go for a second
-										one.
-									</p>
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											body
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 30%;"
-													aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <h3 id="wolfpupLabel">Wolf Pup</h3>
+                                        <p>
+                                            We made a crisp refreshing blonde
+                                            ale and loaded it with fruity
+                                            Australian hops. The outcome is a
+                                            beer that is packed with tropical
+                                            flavors, and that goes down way too
+                                            easily. At an accessible 5% abv,
+                                            we’ll wager you’ll go for a second
+                                            one.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 30%;"
+                                                        aria-valuenow="30"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 70%;"
-													aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 70%;"
+                                                        aria-valuenow="70"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 85%;"
-													aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 85%;"
+                                                        aria-valuenow="80"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<!-- Sour Puss Around Modal Window -->
+            <!-- Sour Puss Around Modal Window -->
 
-		<div class="modal" id="sourpussModal" tabindex="-1" role="dialog" aria-labelledby="sourpussLabel"
-			aria-hidden="true">
-			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-				<div class="modal-content modal-bg">
-					<button
+            <div
+                class="modal"
+                id="sourpussModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="sourpussLabel"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                >
+                    <div class="modal-content modal-bg">
+                        <button
                             type="button"
                             class="close"
                             data-dismiss="modal"
@@ -889,94 +1444,152 @@
                         >
                             <span aria-hidden="true">&times;</span>
                         </button>
-					<div class="modal-body">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-4 modal-img text-center">
-									<img
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4 modal-img text-center">
+                                        <img
                                             src="assets/images/can-sour-puss.png"
                                             alt="Sour Puss Tropical Sour Ale Can"
                                         />
-									<a class="art-credit" href="https://www.freepik.com/patrickss" target="_blank"
-										aria-label="open in new window">vector art by Patrickss<i
+                                        <a
+                                            class="art-credit"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-								</div>
-								<div class="col-8">
-									<h3 id="sourpussLabel">Sour Puss</h3>
-									<p>
-										This beer was soured with
-										lactobacillus, lightly hopped with
-										mosaic hops, then infused with
-										passion fruit, mango, and pineapple.
-										We carbonated slightly more than we
-										should have to give it pleasant
-										sparkle on the tongue. It’ll scratch
-										that tropical fruit itch, and it’s
-										only 4.5% abv.
-									</p>
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											body
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 30%;"
-													aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <h3 id="sourpussLabel">Sour Puss</h3>
+                                        <p>
+                                            This beer was soured with
+                                            lactobacillus, lightly hopped with
+                                            mosaic hops, then infused with
+                                            passion fruit, mango, and pineapple.
+                                            We carbonated slightly more than we
+                                            should have to give it pleasant
+                                            sparkle on the tongue. It’ll scratch
+                                            that tropical fruit itch, and it’s
+                                            only 4.5% abv.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 30%;"
+                                                        aria-valuenow="30"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 10%;"
-													aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 10%;"
+                                                        aria-valuenow="10"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 40%;"
-													aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 40%;"
+                                                        aria-valuenow="40"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 100%;"
-													aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 100%;"
+                                                        aria-valuenow="100"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<!-- Forest Brown Around Modal Window -->
+            <!-- Forest Brown Around Modal Window -->
 
-		<div class="modal" id="forestbrownModal" tabindex="-1" role="dialog" aria-labelledby="forestbrownLabel"
-			aria-hidden="true">
-			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-				<div class="modal-content modal-bg">
-					<button
+            <div
+                class="modal"
+                id="forestbrownModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="forestbrownLabel"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                >
+                    <div class="modal-content modal-bg">
+                        <button
                             type="button"
                             class="close"
                             data-dismiss="modal"
@@ -984,96 +1597,154 @@
                         >
                             <span aria-hidden="true">&times;</span>
                         </button>
-					<div class="modal-body">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-4 modal-img text-center">
-									<img
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4 modal-img text-center">
+                                        <img
                                             src="assets/images/can-forest-brown.png"
                                             alt="Forest Brown Ale Can"
                                         />
-									<a class="art-credit" href="https://www.freepik.com/patrickss" target="_blank"
-										aria-label="open in new window">vector art by Patrickss<i
+                                        <a
+                                            class="art-credit"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-								</div>
-								<div class="col-8">
-									<h3 id="forestbrownLabel">
-										Forest Brown
-									</h3>
-									<p>
-										This is the beer that first caught
-										the attention of the public Simple,
-										rich, straightforward, our brown ale
-										offers a full-bodied chocolate and
-										toffee profile that will leave you
-										satisfied. Its sweetness is balanced
-										out by the bitterness of its roasted
-										malts. At 6% abv, it’s one of our
-										favorites, and never disappoints.
-									</p>
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											body
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 50%;"
-													aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <h3 id="forestbrownLabel">
+                                            Forest Brown
+                                        </h3>
+                                        <p>
+                                            This is the beer that first caught
+                                            the attention of the public Simple,
+                                            rich, straightforward, our brown ale
+                                            offers a full-bodied chocolate and
+                                            toffee profile that will leave you
+                                            satisfied. Its sweetness is balanced
+                                            out by the bitterness of its roasted
+                                            malts. At 6% abv, it’s one of our
+                                            favorites, and never disappoints.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 50%;"
+                                                        aria-valuenow="50"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 60%;"
-													aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 60%;"
+                                                        aria-valuenow="60"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<!-- Bear Juice Around Modal Window -->
+            <!-- Bear Juice Around Modal Window -->
 
-		<div class="modal" id="bearjuiceModal" tabindex="-1" role="dialog" aria-labelledby="bearjuiceLabel"
-			aria-hidden="true">
-			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-				<div class="modal-content modal-bg">
-					<button
+            <div
+                class="modal"
+                id="bearjuiceModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="bearjuiceLabel"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-lg modal-dialog-centered"
+                    role="document"
+                >
+                    <div class="modal-content modal-bg">
+                        <button
                             type="button"
                             class="close"
                             data-dismiss="modal"
@@ -1081,177 +1752,256 @@
                         >
                             <span aria-hidden="true">&times;</span>
                         </button>
-					<div class="modal-body">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-4 modal-img text-center">
-									<img
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4 modal-img text-center">
+                                        <img
                                             src="assets/images/can-bear-juice.png"
                                             alt="Bear Juice Imperial Stout Can"
                                         />
-									<a class="art-credit" href="https://www.freepik.com/patrickss" target="_blank"
-										aria-label="open in new window">vector art by Patrickss<i
+                                        <a
+                                            class="art-credit"
+                                            href="https://www.freepik.com/patrickss"
+                                            target="_blank"
+                                            aria-label="open in new window"
+                                            >vector art by Patrickss<i
                                                 class="ml-1 fas fa-external-link-alt"
-                                            ></i></a>
-								</div>
-								<div class="col-8">
-									<h3 id="bearjuiceLabel">Bear Juice</h3>
-									<p>
-										Our imperial stout is a heavy
-										hitter, loaded with bold flavors
-										reminiscent of chocolate, coffee and
-										caramel. We brewed it from a blend
-										of the finest dark malts and some
-										muscovado sugar, and then aged it
-										for 3 months in bourbon barrel. It’s
-										definitely a sipper at 12%, and you
-										will keep coming back for more sips.
-									</p>
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											body
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 100%;"
-													aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                            ></i
+                                        ></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <h3 id="bearjuiceLabel">Bear Juice</h3>
+                                        <p>
+                                            Our imperial stout is a heavy
+                                            hitter, loaded with bold flavors
+                                            reminiscent of chocolate, coffee and
+                                            caramel. We brewed it from a blend
+                                            of the finest dark malts and some
+                                            muscovado sugar, and then aged it
+                                            for 3 months in bourbon barrel. It’s
+                                            definitely a sipper at 12%, and you
+                                            will keep coming back for more sips.
+                                        </p>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                body
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 100%;"
+                                                        aria-valuenow="100"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											bitterness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 10%;"
-													aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                bitterness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 10%;"
+                                                        aria-valuenow="10"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											maltiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 90%;"
-													aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                maltiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 90%;"
+                                                        aria-valuenow="90"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-									<div class="row">
-										<div class="col-3 text-right progress-label">
-											fruitiness
-										</div>
-										<div class="col-9 pt-2">
-											<div class="progress" style="height: 3px;">
-												<div class="progress-bar" role="progressbar" style="width: 20%;"
-													aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                                        <div class="row">
+                                            <div
+                                                class="col-3 text-right progress-label"
+                                            >
+                                                fruitiness
+                                            </div>
+                                            <div class="col-9 pt-2">
+                                                <div
+                                                    class="progress"
+                                                    style="height: 3px;"
+                                                >
+                                                    <div
+                                                        class="progress-bar"
+                                                        role="progressbar"
+                                                        style="width: 20%;"
+                                                        aria-valuenow="20"
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-	<!-- FOOTER -->
-	<footer id="sticky-footer">
-		<div class="container-fluid bg-custom">
-			<div class="row footer-container text-center text-md-left">
-				<div class="col-md-3 footer-info">
-					<h4>Contact</h4>
-					<ul class="fa-ul">
-						<li>
-							<span class="fa-li d-none d-md-inline"
-                                    ><i class="fa fa-location-arrow"></i></span><i
+        <!-- FOOTER -->
+        <footer class="sticky-footer">
+            <div class="container-fluid bg-custom">
+                <div class="row footer-container text-center text-md-left">
+                    <div class="col-md-3 footer-info">
+                        <h4>Contact</h4>
+                        <ul class="fa-ul">
+                            <li>
+                                <span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-location-arrow"></i></span
+                                ><i
                                     class="fa fa-location-arrow d-md-none pr-2"
                                 ></i>
-							Beer St. <br />Oslo, Norway
+                                123 Beer St. <br />Oslo, Norway
                             </li>
-						<li>
-							<span class="fa-li d-none d-md-inline"
-                                    ><i class="fa fa-phone"></i></span><i class="fa fa-phone d-md-none pr-2"></i><a
-								aria-label="phone number" href="tel:555-123-4567">555-123-4567</a>
-						</li>
-						<li>
-							<span class="fa-li d-none d-md-inline"
-                                    ><i class="fa fa-envelope"></i></span><i class="fa fa-envelope d-md-none pr-2"></i><a
-								aria-label="email" href="mailto:contact@polygonal.com">contact@polygonal.com</a>
-						</li>
-					</ul>
-					<hr class="d-md-none" />
-				</div>
-				<div class="col-md-3 hours">
-					<h4>Opening Hours</h4>
-					<ul class="list-unstyled">
-						<li>Monday: 12:00 - 00:00</li>
-						<li>Tuesday: 12:00 - 00:00</li>
-						<li>Wednesday: 12:00 - 00:00</li>
-						<li>Thursday: 12:00 - 1:00</li>
-						<li>Friday: 12:00 - 2:00</li>
-						<li>Saturday: 12:00 - 2:00</li>
-						<li>Sunday: closed</li>
-					</ul>
-					<hr class="d-md-none" />
-				</div>
-				<div class="col-md-3 footer-form">
-					<h4>Stay In Touch</h4>
-					<form class="form-group">
-						<input
+                            <li>
+                                <span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-phone"></i></span
+                                ><i class="fa fa-phone d-md-none pr-2"></i
+                                ><a
+                                    aria-label="phone number"
+                                    href="tel:555-123-4567"
+                                    >555-123-4567</a
+                                >
+                            </li>
+                            <li>
+                                <span class="fa-li d-none d-md-inline"
+                                    ><i class="fa fa-envelope"></i></span
+                                ><i class="fa fa-envelope d-md-none pr-2"></i
+                                ><a
+                                    aria-label="email"
+                                    href="mailto:contact@polygonal.com"
+                                    >contact@polygonal.com</a
+                                >
+                            </li>
+                        </ul>
+                        <hr class="d-md-none" />
+                    </div>
+                    <div class="col-md-3 hours">
+                        <h4>Opening Hours</h4>
+                        <ul class="list-unstyled">
+                            <li>Monday: 12:00 - 00:00</li>
+                            <li>Tuesday: 12:00 - 00:00</li>
+                            <li>Wednesday: 12:00 - 00:00</li>
+                            <li>Thursday: 12:00 - 1:00</li>
+                            <li>Friday: 12:00 - 2:00</li>
+                            <li>Saturday: 12:00 - 2:00</li>
+                            <li>Sunday: closed</li>
+                        </ul>
+                        <hr class="d-md-none" />
+                    </div>
+                    <div class="col-md-3 footer-form">
+                        <h4>Stay In Touch</h4>
+                        <form class="form-group">
+                            <input
                                 type="email"
                                 required
                                 class="form-control"
                                 placeholder="Email"
                                 aria-label="Email address"
                             />
-						<div class="text-right">
-							<button
+                            <div class="text-right">
+                                <button
                                     type="submit"
                                     class="btn btn-primary form-control"
                                     aria-label="submit-form"
                                 >
                                     send
                                 </button>
-						</div>
-					</form>
-					<hr class="d-md-none" />
-				</div>
-				<div class="col-md-3 social">
-					<h4>Connect</h4>
-					<ul class="list-inline">
-						<li class="list-inline-item align-middle">
-							<a aria-label="Facebook" href="https://facebook.com" target="_blank"
-								rel="noopener"><i class="fab fa-facebook-f"></i></a>
-						</li>
-						<li class="list-inline-item align-middle">
-							<a aria-label="Twitter" href="https://twitter.com" target="_blank"
-								rel="noopener"><i class="fab fa-twitter"></i></a>
-						</li>
-						<li class="list-inline-item align-middle">
-							<a aria-label="instagram" href="https://instagram.com" target="_blank"
-								rel="noopener"><i class="fab fa-instagram"></i></a>
-						</li>
-						<li class="list-inline-item align-middle">
-							<a aria-label="untappd" href="https://untappd.com" target="_blank"
-								rel="noopener"><i class="fab fa-untappd"></i></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- SCRIPTS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</body>
-
+                            </div>
+                        </form>
+                        <hr class="d-md-none" />
+                    </div>
+                    <div class="col-md-3 social">
+                        <h4>Connect</h4>
+                        <ul class="list-inline">
+                            <li class="list-inline-item align-middle">
+                                <a
+                                    aria-label="Facebook"
+                                    href="https://facebook.com"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fab fa-facebook-f"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item align-middle">
+                                <a
+                                    aria-label="Twitter"
+                                    href="https://twitter.com"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fab fa-twitter"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item align-middle">
+                                <a
+                                    aria-label="instagram"
+                                    href="https://instagram.com"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fab fa-instagram"></i
+                                ></a>
+                            </li>
+                            <li class="list-inline-item align-middle">
+                                <a
+                                    aria-label="untappd"
+                                    href="https://untappd.com"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fab fa-untappd"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </body>
 </html>
