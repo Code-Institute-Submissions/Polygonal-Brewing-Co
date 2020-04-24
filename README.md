@@ -126,7 +126,7 @@ The HTML was validated on [W3C Validator](https://validator.w3.org/) and speed t
 
 -   Balsamiq: Used to create wireframes
 -   Gitpod: IDE used for creating and editing code
--   [fontawesome.com](https://fontawesome.com): used for all icons throughout the site
+-   [Font Awesome](https://fontawesome.com): used for all icons throughout the site
 -   [Google MyMaps](https://www.google.com/maps/about/mymaps/): used for custom map on homepage
 -   [Google Fonts](https://fonts.google.com/): Raleway and Montserrat fonts imported from google fonts
 -   Adobe Photoshop: For creation and editing of all photos and images across the site
@@ -137,12 +137,12 @@ The HTML was validated on [W3C Validator](https://validator.w3.org/) and speed t
 
 ## MEDIA
 
--   Vector designs throughout the site (header, footer, and can design) were provided by Patrickss on freepik.com https://www.freepik.com/patrickss, and were edited and resized by myself for the purposes of the site
--   Photos throughout website are courtesy of [https://unsplash.com/](unsplash.com)
+-   Vector designs throughout the site (header, footer, and can design) were provided by [Patrickss](https://www.freepik.com/patrickss), and were edited and resized by myself for the purposes of the site
+-   Photos throughout website are courtesy of [https://unsplash.com/](Unsplash)
 -   Font for logo is [Polya by Adrien Coquet](https://www.behance.net/gallery/20118341/POLYA-Free-Font_)
 
 ## ACKNOWLEDGMENTS
 
 -   Overlay of map to prevent accidental zooming while scrolling, courtesy of [Tania Rascia](https://www.taniarascia.com/prevent-mouse-scroll-from-zooming-on-embedded-google-maps/) with updated javascript by [Felipe Alarcon](https://github.com/felipe-alarcon)
--   Sticky Footer code from [startbootstrap.com](https://startbootstrap.com/snippets/sticky-footer-flexbox/)
+-   Sticky Footer code from [Start Bootstrap](https://startbootstrap.com/snippets/sticky-footer-flexbox/)
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) and [Simen Daehlin](https://github.com/Eventyret) for their invaluable help and feedback and to the Code Institute slack community for their constant support.
